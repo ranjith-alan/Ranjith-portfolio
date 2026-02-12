@@ -10,7 +10,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    background: rgba(2, 2, 2, 0.719);
+    background: rgba(7, 7, 7, 0.719);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -160,4 +160,41 @@ form button {
 
 form button:hover {
     background: white;
+}
+/* ===== FOOTER ===== */
+footer {
+    background: linear-gradient(135deg, #000000, #1f1f1f);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.footer-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #cccccc;
+}
+.socials a {
+    color: #00ffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.socials a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.copyright {
+    margin-top: 25px;
+    font-size: 14px;
+    color: #888;
 }
