@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(2, 2, 2, 0.719);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 60px;
+    z-index: 1000;
+}
+.logo {
+    color: #00ffff;
+    font-size: 32px;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 22px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #00ffff;
+}
+section {
+    min-height: 100vh;
+    padding: 180px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#home {
+    background: linear-gradient(135deg, #000000, #434343);
+    color: white;
+}
+
+#home h1 {
+    font-size: 80px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+#home h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#home h4 {
+    font-size: 32px;
+    color: #00ffff;
+    margin-bottom: 25px;
+}
+
+#home p {
+    font-size: 24px;
+    max-width: 900px;
+    line-height: 1.6;
+}
+#about {
+    background: white;
+    color: black;
+}
+
+#about h2 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 26px;
+    line-height: 1.7;
+    max-width: 1000px;
+}
+
+table {
+    margin-top: 40px;
+    width: 80%;
+    border-collapse: collapse;
+    font-size: 24px;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+}
+#skills {
+    background: #111;
+    color: white;
+}
+
+#skills h2 {
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+#skills li {
+    font-size: 30px;
+    margin: 15px 0;
+}
+#projects {
+    background: #f5f5f5;
+}
+
+#projects h2 {
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+#projects a {
+    font-size: 28px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+#projects a:hover {
+    color: #00bcd4;
+}
+#contact {
+    background: black;
+    color: white;
+}
+
+#contact h2 {
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+form input,
+form textarea {
+    width: 500px;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+form button {
+    padding: 15px 40px;
+    font-size: 22px;
+    font-weight: bold;
+    background: #00ffff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: white;
+}
